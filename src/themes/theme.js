@@ -16,7 +16,7 @@ export default {
     mobile: "only screen and (max-width: 50rem)",
     tablet: "only screen and (max-width: 65rem)",
   },
-  spacing: {
+  spacings: {
     xxSmall: ".25rem",
     xSmall: ".5rem",
     small: "1rem",
@@ -29,7 +29,7 @@ export default {
     button: "box-shadow 0.3s ease",
     link: "color 0.2s ease",
   },
-  shadows: {
+  shadow: {
     shadow1: "0px 5px 20px rgba(30, 30, 31, 0.05)",
   },
 }
