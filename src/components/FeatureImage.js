@@ -7,7 +7,7 @@ export const FeatureImage = ({ fixed }) => {
   const data = useStaticQuery(graphql`
     query {
       imageSharp(fixed: { originalName: { eq: "office.jpg" } }) {
-        fixed(width: 800) {
+        fixed(width: 1920) {
           ...GatsbyImageSharpFixed
         }
       }
