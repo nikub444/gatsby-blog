@@ -22,10 +22,10 @@ const allPosts = ({ pageContext, data }) => {
       <FeatureImage />
       <Content>
         <H1 textAlign="center" margin="0 0 1rem 0">
-          Dummy h1
+          Science Blog
         </H1>
         <P color="dark2" textAlign="center">
-          Dummy paragraph
+        See math and science in a new way.
         </P>
         {posts.map(post => (
           <ContentCard
